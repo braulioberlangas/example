@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="data-access" uuid="9d05aadf-d03b-4dc5-b4d0-b096ac74bde5">
+      <driver-ref>presto</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.facebook.presto.jdbc.PrestoDriver</jdbc-driver>
+      <jdbc-url>jdbc:presto://presto.presto-mstr-cluster.as24-data-access.eu-west-1.aws.as24.tech:443/hive?SSL=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="as24data (pii data)" uuid="41e8f7d9-7d89-49e5-a256-0177c8775f99">
+      <driver-ref>presto</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.facebook.presto.jdbc.PrestoDriver</jdbc-driver>
+      <jdbc-url>jdbc:presto://presto.presto-mstr-cluster.as24data.eu-west-1.aws.as24.tech:443/hive?SSL=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle" uuid="d5ee2d2a-2873-4c18-b4a3-1eb505d57575">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@as24safo.db.stable.cs.autoscout24.net:1521:AS24SAFO</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
